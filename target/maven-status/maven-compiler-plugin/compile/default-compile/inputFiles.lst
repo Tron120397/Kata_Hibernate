@@ -1,0 +1,9 @@
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/service/UserService.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/util/Util.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/dao/UserDao.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/Main.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/model/User.java
+/home/tron/Personal/Test_java/projects/PP_1_1_3-4_JDBC_Hibernate/src/main/java/jm/task/core/jdbc/util/PropertiesUtil.java
