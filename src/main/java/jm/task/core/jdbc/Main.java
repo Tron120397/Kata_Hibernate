@@ -1,5 +1,6 @@
 package jm.task.core.jdbc;
 
+import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.service.UserService;
 import jm.task.core.jdbc.service.UserServiceImpl;
@@ -7,6 +8,7 @@ import jm.task.core.jdbc.util.Util;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,18 +24,14 @@ public class Main {
 
         for (User user : arraUser) {
             userService.saveUser(user.getName(), user.getLastName(), user.getAge());
-            System.out.printf("User с именем – %s добавлен в базу данных.\n", user.getName());
+
 
         }
 
-        for (User user : userService.getAllUsers()) {
-            System.out.println(user);
-        }
+        userService.getAllUsers().forEach(System.out::println);
 
-        userService.createUsersTable();
+        userService.cleanUsersTable();
         userService.dropUsersTable();
-
-
     }
 
 

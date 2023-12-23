@@ -1,0 +1,9 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(‡×ÓŞ8Ëõ“ŸÉ1
+G	java:S106"+Replace this use of System.out by a logger.(’»ğ€8Îõ“ŸÉ1
+G	java:S106"+Replace this use of System.out by a logger.(Ò®˜8Ïõ“ŸÉ1
+L	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8¾¯”ŸÉ1
+G	java:S106+"+Replace this use of System.out by a logger.(¬­ÇÅ8ƒâµŸÉ1
+Q
+java:S1144'"/Remove this unused private "loadDriver" method.(äƒ±Íÿÿÿÿÿ8Ïõ“ŸÉ1

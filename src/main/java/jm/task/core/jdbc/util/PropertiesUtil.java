@@ -21,8 +21,9 @@ public class PropertiesUtil {
         try (InputStream inputStream = PropertiesUtil.class.getClassLoader()
                 .getResourceAsStream("application.properties")) {
             PROPERTIES.load(inputStream);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        } catch (IOException | NullPointerException e) {
+            System.out.println("File application.properties not found!");
+            System.exit(0);
         }
     }
 }

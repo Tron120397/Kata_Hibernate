@@ -1,0 +1,40 @@
+
+p
+java:S1192$"TDefine a constant instead of duplicating this literal "Error in database: " 6 times.(âá“/8˜‘¡¡É1
+w	java:S116"[Rename this field "SQL_CREATE_TABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯—–â8¦‘¡¡É1
+u	java:S116"YRename this field "SQL_DROP_TABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¯¸†8¦‘¡¡É1
+t	java:S116"XRename this field "SQL_SAVE_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡áä8¦‘¡¡É1
+{	java:S116"ZRename this field "SQL_DELETE_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãã©øÿÿÿÿ8¦‘¡¡É1
+|	java:S116"[Rename this field "SQL_GET_ALL_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¥á™ûÿÿÿÿ8¦‘¡¡É1
+v	java:S116"ZRename this field "SQL_CLEAR_TABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹8¦‘¡¡É1
+>
+java:S1170"!Make this final field static too.(¯—–â8¦‘¡¡É1
+>
+java:S1170"!Make this final field static too.(ì¯¸†8¦‘¡¡É1
+>
+java:S1170"!Make this final field static too.(¡áä8¦‘¡¡É1
+C
+java:S1170"!Make this final field static too.(ãã©øÿÿÿÿ8¦‘¡¡É1
+C
+java:S1170"!Make this final field static too.(Ÿ¥á™ûÿÿÿÿ8¦‘¡¡É1
+>
+java:S1170"!Make this final field static too.(¹8¦‘¡¡É1
+F	java:S106$"+Replace this use of System.out by a logger.(âá“/8©‘¡¡É1
+G	java:S106&"+Replace this use of System.out by a logger.(ñ·¤¬8©‘¡¡É1
+F	java:S1061"+Replace this use of System.out by a logger.(âá“/8ª‘¡¡É1
+G	java:S1063"+Replace this use of System.out by a logger.(ñ·¤¬8ª‘¡¡É1
+s
+java:S3457@"Q%n should be used in place of \n to produce the platform-specific line separator.(Ê³âÿÿÿÿÿ8«‘¡¡É1
+L	java:S106@"+Replace this use of System.out by a logger.(Ê³âÿÿÿÿÿ8«‘¡¡É1
+L	java:S106C"+Replace this use of System.out by a logger.(½ñÄŞüÿÿÿÿ8«‘¡¡É1
+L	java:S106D"+Replace this use of System.out by a logger.(Œ‰¯æıÿÿÿÿ8¬‘¡¡É1
+F	java:S106F"+Replace this use of System.out by a logger.(âá“/8¬‘¡¡É1
+L	java:S106H"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8¬‘¡¡É1
+G	java:S106I"+Replace this use of System.out by a logger.(‰„•¾8®‘¡¡É1
+F	java:S106U"+Replace this use of System.out by a logger.(âá“/8®‘¡¡É1
+L	java:S106W"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8®‘¡¡É1
+G	java:S106p"+Replace this use of System.out by a logger.(Âùúœ8¯‘¡¡É1
+F	java:S106r"+Replace this use of System.out by a logger.(âá“/8¯‘¡¡É1
+L	java:S106t"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ø…¦¡É1
+G	java:S106"+Replace this use of System.out by a logger.(âá“/8Ù…¦¡É1
+M	java:S106ƒ"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ù…¦¡É1
