@@ -27,7 +27,7 @@ public class UserDaoJDBCImpl implements UserDao {
     private final String SQL_CLEAR_TABLE = "TRUNCATE TABLE users";
 
     public void createUsersTable() {
-        try (Connection connection = Util.getConnection();
+        try (Connection connection = Util.getConnectionJDBC();
              Statement statement = connection.createStatement()) {
 
             statement.execute(SQL_CREATE_TABLE);
@@ -40,7 +40,7 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public void dropUsersTable() {
-        try (Connection connection = Util.getConnection();
+        try (Connection connection = Util.getConnectionJDBC();
              Statement statement = connection.createStatement()) {
 
             statement.execute(SQL_DROP_TABLE);
@@ -53,7 +53,7 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public void saveUser(String name, String lastName, byte age) {
-        try (Connection connection = Util.getConnection();
+        try (Connection connection = Util.getConnectionJDBC();
              PreparedStatement preparedStatement = connection.prepareStatement(SQL_SAVE_USER)) {
 
             preparedStatement.setString(1, name);
@@ -75,7 +75,7 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public void removeUserById(long id) {
-        try (Connection connection = Util.getConnection();
+        try (Connection connection = Util.getConnectionJDBC();
              PreparedStatement preparedStatement = connection.prepareStatement(SQL_DELETE_USER)) {
 
             preparedStatement.setLong(1, id);
@@ -90,7 +90,7 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public List<User> getAllUsers() {
-        try (Connection connection = Util.getConnection();
+        try (Connection connection = Util.getConnectionJDBC();
              Statement statement = connection.createStatement()) {
 
             List<User> listUsers = new ArrayList<>();
@@ -120,7 +120,7 @@ public class UserDaoJDBCImpl implements UserDao {
     }
 
     public void cleanUsersTable() {
-        try (Connection connection = Util.getConnection();
+        try (Connection connection = Util.getConnectionJDBC();
              Statement statement = connection.createStatement()) {
 
             statement.execute(SQL_CLEAR_TABLE);
