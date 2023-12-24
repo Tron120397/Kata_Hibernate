@@ -8,8 +8,6 @@ import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
-import org.hibernate.exception.JDBCConnectionException;
-import org.hibernate.internal.util.config.ConfigurationException;
 import org.hibernate.service.ServiceRegistry;
 
 import java.sql.*;
@@ -27,20 +25,13 @@ public final class Util {
     private static final String PROPERTIES_PASSWORD = PropertiesUtil.get("db.password");
     private static final String URL = PROPERTIES_URL + PROPERTIES_HOST + PROPERTIES_PORT + PROPERTIES_NAME_DB;
 
-
     public static SessionFactory getSessionFactory() throws NullPointerException{
 
 
         if (configurationHibernate == null) {
             try {
                 configurationHibernate = new Configuration();
-                Properties properties = new Properties();
-                properties.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-                properties.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
-                properties.put(Environment.URL, URL);
-                properties.put(Environment.USER, PROPERTIES_USER_NAME);
-                properties.put(Environment.PASS, PROPERTIES_PASSWORD);
-                properties.put(Environment.PHYSICAL_NAMING_STRATEGY, CamelCaseToUnderscoresNamingStrategy.class.getName());
+                Properties properties = getProperties();
                 configurationHibernate.setProperties(properties);
                 configurationHibernate.addAnnotatedClass(User.class);
 
@@ -54,6 +45,17 @@ public final class Util {
             }
         }
         return configurationHibernate.buildSessionFactory();
+    }
+
+    private static Properties getProperties() {
+        Properties properties = new Properties();
+        properties.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
+        properties.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
+        properties.put(Environment.URL, URL);
+        properties.put(Environment.USER, PROPERTIES_USER_NAME);
+        properties.put(Environment.PASS, PROPERTIES_PASSWORD);
+        properties.put(Environment.PHYSICAL_NAMING_STRATEGY, CamelCaseToUnderscoresNamingStrategy.class.getName());
+        return properties;
     }
 
 

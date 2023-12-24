@@ -1,13 +1,13 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(²¥×•8¹İƒÉ1
+G	java:S106"+Replace this use of System.out by a logger.(²¥×•8˜àßÉ1
 d
-java:S1128"BRemove this unused import 'jm.task.core.jdbc.dao.UserDaoJDBCImpl'.(äšÉàøÿÿÿÿ8ŸÏŸÉ1
+java:S1128"BRemove this unused import 'jm.task.core.jdbc.dao.UserDaoJDBCImpl'.(äšÉàøÿÿÿÿ8™àßÉ1
 U
-java:S1128"8Remove this unused import 'jm.task.core.jdbc.util.Util'.(õ¥ãô8ŸÏŸÉ1
+java:S1128"8Remove this unused import 'jm.task.core.jdbc.util.Util'.(õ¥ãô8™àßÉ1
 M
-java:S1128	"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ŸÏŸÉ1
+java:S1128	"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8™àßÉ1
 O
 java:S1128
-"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ŸÏŸÉ1
+"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8™àßÉ1
 O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ŸÏŸÉ1
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8™àßÉ1

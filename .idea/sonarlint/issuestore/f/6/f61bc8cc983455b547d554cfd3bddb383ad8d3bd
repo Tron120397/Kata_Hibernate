@@ -1,28 +1,17 @@
 
-m	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‡‹”8ºÁëÁÉ1
-w	java:S116"[Rename this field "SQL_CREATE_TABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯—–â8ÉÁëÁÉ1
-u	java:S116"YRename this field "SQL_DROP_TABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¯¸†8ÉÁëÁÉ1
-{	java:S116"ZRename this field "SESSION_FACTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è™Î¥üÿÿÿÿ8ÉÁëÁÉ1
->
-java:S1170"!Make this final field static too.(¯—–â8ÉÁëÁÉ1
->
-java:S1170"!Make this final field static too.(ì¯¸†8ÉÁëÁÉ1
-F	java:S106)"+Replace this use of System.out by a logger.(âá“/8ÊÁëÁÉ1
-G	java:S106+"+Replace this use of System.out by a logger.(ñ·¤¬8ÌÁëÁÉ1
-F	java:S1066"+Replace this use of System.out by a logger.(âá“/8ÌÁëÁÉ1
-G	java:S1068"+Replace this use of System.out by a logger.(ñ·¤¬8ÌÁëÁÉ1
+G	java:S106("+Replace this use of System.out by a logger.(ñ·¤¬8Ó àÉ1
+G	java:S1068"+Replace this use of System.out by a logger.(ñ·¤¬8ƒÓ àÉ1
 s
-java:S3457F"Q%n should be used in place of \n to produce the platform-specific line separator.(Ê³âÿÿÿÿÿ8ÍÁëÁÉ1
-L	java:S106F"+Replace this use of System.out by a logger.(Ê³âÿÿÿÿÿ8ÍÁëÁÉ1
-G	java:S106H"+Replace this use of System.out by a logger.(ñ·¤¬8ÍÁëÁÉ1
+java:S3457H"Q%n should be used in place of \n to produce the platform-specific line separator.(Ê³âÿÿÿÿÿ8…Ó àÉ1
+L	java:S106H"+Replace this use of System.out by a logger.(Ê³âÿÿÿÿÿ8…Ó àÉ1
+G	java:S106J"+Replace this use of System.out by a logger.(ñ·¤¬8†Ó àÉ1
 s
-java:S3457I"Q%n should be used in place of \n to produce the platform-specific line separator.(ÉÂò‡ûÿÿÿÿ8ÍÁëÁÉ1
-L	java:S106I"+Replace this use of System.out by a logger.(ÉÂò‡ûÿÿÿÿ8ÍÁëÁÉ1
-G	java:S106W"+Replace this use of System.out by a logger.(ñ·¤¬8ÎÁëÁÉ1
-L	java:S106X"+Replace this use of System.out by a logger.(şÃ¶Ÿûÿÿÿÿ8ÏÁëÁÉ1
-G	java:S106e"+Replace this use of System.out by a logger.(ŞâıÆ8ÏÁëÁÉ1
-G	java:S106f"+Replace this use of System.out by a logger.(ñ·¤¬8ĞÁëÁÉ1
-L	java:S106u"+Replace this use of System.out by a logger.(öşŸèúÿÿÿÿ8ĞÁëÁÉ1
-G	java:S106v"+Replace this use of System.out by a logger.(ñ·¤¬8ÏÃïÁÉ1
-Y
-java:S1128"<Remove this unused import 'org.hibernate.query.NativeQuery'.(§Ì8ĞÁëÁÉ1
+java:S3457K"Q%n should be used in place of \n to produce the platform-specific line separator.(ÉÂò‡ûÿÿÿÿ8†Ó àÉ1
+L	java:S106K"+Replace this use of System.out by a logger.(ÉÂò‡ûÿÿÿÿ8†Ó àÉ1
+G	java:S106\"+Replace this use of System.out by a logger.(ñ·¤¬8‡Ó àÉ1
+G	java:S106l"+Replace this use of System.out by a logger.(ŞâıÆ8‰Ó àÉ1
+G	java:S106m"+Replace this use of System.out by a logger.(ñ·¤¬8‰Ó àÉ1
+L	java:S106~"+Replace this use of System.out by a logger.(öşŸèúÿÿÿÿ8‹Ó àÉ1
+G	java:S106"+Replace this use of System.out by a logger.(ñ·¤¬8‹Ó àÉ1
+M
+java:S1128	"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8â×¶àÉ1
